@@ -2,6 +2,9 @@
 
 **VoyaSync** is a voice recording and transcription application that allows users to record their voice, transcribe it using AI (HuggingFace's `openai/whisper-tiny.en` model), and even translate the transcribed text into different languages. Users can also upload their audio files, such as `.mp3` or `.wav`, if they prefer not to record directly.
 
+## Deploy Link
+ https://vocasync.netlify.app/
+
 ## Features ✨
 
 - **Record Audio** 🎤  
@@ -35,35 +38,61 @@
    ```bash
    git clone https://github.com/yourusername/VoyaSync.git
    cd VoyaSync
+   npm start
 Install frontend dependencies:
 
-bash
-Copy code
-npm install
+    ```bash
+    Copy code
+    npm install
 Set up the backend and HuggingFace API for transcription:
-
 Install Python dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
+    ```bash
+    Copy code
+    pip install -r requirements.txt
 Set up HuggingFace API key in the .env file:
 
-bash
-Copy code
-HUGGINGFACE_API_KEY=your_api_key
+    ```bash
+    Copy code
+    HUGGINGFACE_API_KEY=your_api_key
 Run the frontend:
 
-bash
-Copy code
-npm start
-Run the backend:
+    ```bash
+    Copy code
+    npm start
+    Run the backend:
 
-bash
-Copy code
-python app.py
 UI Screenshots 📸
 Here are some screenshots of the VoyaSync UI:
+
+## **HomePage**
+
+![1](https://github.com/user-attachments/assets/3dfaa68a-8e36-4037-8c94-7ed84adbd02d)
+
+## **Recording Live voice**
+
+![2](https://github.com/user-attachments/assets/281e22b0-d578-4dcb-a093-e637c35e8e13)
+
+## **Uploagin the Mp3 File** 
+
+![3](https://github.com/user-attachments/assets/2e371ec3-78a2-486f-ba9f-c24efe835b06)
+
+## **Transcribing**
+
+![4](https://github.com/user-attachments/assets/7a9a6de5-95f0-496f-9b49-58c343674e31)
+
+## **After Transcribing**
+
+![6](https://github.com/user-attachments/assets/fdbeeddc-27a5-4f2c-98d4-990924eca7f5)
+
+## **Transcription**
+
+![7](https://github.com/user-attachments/assets/13b3c1ee-36bb-4f8a-8ae6-146a8c58d08d)
+
+
+
+
+
 
 
 API Integration 🖥️
@@ -91,8 +120,8 @@ Distributed under the MIT License. See LICENSE for more information.
 Contact 📬
 For questions or suggestions, you can reach out to us:
 
-Email: support@voyasync.com
-GitHub: https://github.com/yourusername/VoyaSync
+Email: vaghanirutvik777@gmail.com
+GitHub: https://github.com/rutvik09/VoyaSync
 Thanks for using VoyaSync! 🎉
 
 javascript
