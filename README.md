@@ -41,24 +41,16 @@
    npm start
 Install frontend dependencies:
 
-    ```bash
-    Copy code
     npm install
 Set up the backend and HuggingFace API for transcription:
 Install Python dependencies:
 
-    ```bash
-    Copy code
     pip install -r requirements.txt
 Set up HuggingFace API key in the .env file:
 
-    ```bash
-    Copy code
     HUGGINGFACE_API_KEY=your_api_key
 Run the frontend:
 
-    ```bash
-    Copy code
     npm start
     Run the backend:
 
