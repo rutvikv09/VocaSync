@@ -124,7 +124,3 @@ Email: vaghanirutvik777@gmail.com
 GitHub: https://github.com/rutvik09/VoyaSync
 Thanks for using VoyaSync! 🎉
 
-javascript
-Copy code
-
-You can copy and paste this into your `README.md` file for your project. The placeholders like `path_to_image_1` sho
